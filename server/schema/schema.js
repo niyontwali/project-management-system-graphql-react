@@ -126,7 +126,7 @@ const mutation = new GraphQLObjectType({
           status: args.status,
           clientId: args.clientId
         });
-        return project.save() // works the same as Project.create(project)
+        return project.save()
       }
     },
     // End of Create Project
